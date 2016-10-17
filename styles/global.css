@@ -1,0 +1,51 @@
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.columns {
+    width: 300px;
+    box-shadow: 0 1px 2px 0 #a0a0a0;
+    background-color: #fff;
+    padding: 10px;
+    height: 90%;
+    margin: 10px 20px;
+    overflow: auto;
+}
+
+.c-body {
+    position: relative;
+}
+
+.c-body div {
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #444;
+    top: 0;
+    left: 0;
+}
+
+.c-body p {
+    margin: 0;
+}
+
+.c-body .norm {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+}
+
+.c-body .wide {
+    width: 200px;
+    height: 100px;
+    background-color: #aaa;
+}
+
+.c-body .tall {
+    width: 100px;
+    height: 200px;
+    background-color: #eee;
+}
